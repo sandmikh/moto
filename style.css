@@ -1,0 +1,109 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#wrapper{
+	/*background-image: url();*/
+	background-image:url(images/bacgraund/moto_media_video_01.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding-top: 65px;
+}
+
+body{
+	font-family: "Myriad Pro", "Roboto", "RobotoCondensed";/*вопрос насчет шрифта*/
+	font-size: 19px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 200%;
+	}
+
+header{
+	width: 935px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header a {
+text-decoration: none;
+color: black;
+}
+
+header .tel{
+	font-size: 27px;
+	float: right;
+	padding-top: 43px;
+}
+
+header .tel:hover{
+	border-bottom: 3px solid;
+}
+
+#logo{
+	float: left;
+}
+header #navigation{
+	padding-top: 171px;
+	font-size: 17px;
+	font-weight: bold;
+	padding-bottom: 8px;
+}
+
+header #navigation a{
+	margin-left: 46px;
+}
+
+header #navigation a:first-child{
+	margin-left:0;
+}
+
+header #navigation a:hover{
+	border-bottom: 5px solid;
+	color: #d44036;
+	padding-bottom: 13px;
+}
+
+header #gallery{
+	text-align: center;
+	background: black;
+	padding-top: 10px;
+	padding-bottom: 12px;
+
+}
+
+header #gallery a{
+	color: #adadad;
+	padding-right: 10px;
+}
+
+header #gallery a:before{
+	border-left: 1px solid;
+	content: '';
+	display: inline-block;
+	height: 12px;
+	margin-right: 10px;
+}
+
+header #gallery a:first-child:before{
+	display: none;
+}
+
+header #gallery a:hover{
+	border-bottom: 5px solid;
+	color: white;
+	padding-bottom: 16px;
+}
+
+/*дальше идет main*/
+main{
+	height: 2000px;
+}
+
+main #main_video{
+	width: 1144px;
+	height: 458px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: grey;
+}
